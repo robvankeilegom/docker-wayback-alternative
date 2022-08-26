@@ -1,0 +1,12 @@
+const sites = {
+  robvankeilegom: {
+    'homepage': 'https://robvankeilegom.be',
+  },
+  reddit: {
+    'homepage': 'https://www.reddit.com/',
+    'r-datahoarder': 'https://www.reddit.com/r/DataHoarder/',
+  },
+};
+
+module.exports = sites;
+

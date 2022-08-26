@@ -1,9 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-const sites = {
-
-};
+const sites = require('./config/config.js');
 
 const d=new Date();
 
@@ -23,8 +21,8 @@ const d=new Date();
     const parts = [
       'screenshots',
       d.getFullYear(),
-      d.getMonth(),
-      d.getDay(),
+      d.getMonth() + 1,
+      d.getDate(),
       account,
     ];
     const path = parts.join('/');
